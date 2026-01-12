@@ -8,4 +8,4 @@ response = requests.get('https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/
 feed.ParseFromString(response.content)
 for entity in feed.entity:
     if entity.HasField('trip_update'):
-        print(entity.trip_update)
+        print(entity.trip_update) 
