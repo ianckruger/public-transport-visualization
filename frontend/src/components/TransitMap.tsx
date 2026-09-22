@@ -11,7 +11,7 @@ export default function TransitMap() {
         if (!mapContainer.current) return;
         const map = new Map({
         container: mapContainer.current,
-        style: 'https://demotiles.maplibre.org/globe.json',
+        style: 'https://tiles.openfreemap.org/styles/liberty',
         center:[-73.9712, 40.7831],
         zoom: 10,
         interactive: true,
