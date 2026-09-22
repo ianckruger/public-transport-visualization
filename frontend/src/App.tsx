@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import TransitMap from "./components/TransitMap";
 
 type StopUpdate = {
   stopId: string;
@@ -31,7 +32,7 @@ function formatTime(timestamp: number | null) {
 
 export default function App() {
   const [data, setData] = useState<TrainResponse | null>(null);
-  const [error, setError] = useState<String | null>(null);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const controller = new AbortController();

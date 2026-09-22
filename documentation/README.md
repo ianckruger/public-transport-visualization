@@ -1,8 +1,8 @@
 # public-transport-visualization
 
 Dependencies:
-    > npm install maplibre-gl<br>
-    
+>npm install maplibre-gl<br>
+
 Tech Stack:
     - React/Typescript for frontend details like line selections, frequency stat parsing, etc
     - MapLibre GL JS for making the map; This entails drawing routes, stations, and moving train dots
